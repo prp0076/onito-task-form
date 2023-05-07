@@ -1,0 +1,24 @@
+.parent{
+    display: flex;
+    border: 1px solid yellow;
+    justify-content: center;
+    align-items: center;
+}
+.App{
+ height: 500px;
+ width: 1200px;
+ border: 1px solid pink;
+ display: flex;
+}
+.parsonalclass{
+    border: 1px solid greenyellow;
+}
+.contactdetails{
+    border: 2px solid red;
+}
+.otherdatils{
+    border: 2px solid yellow;
+}
+.addressdetails{
+    border: 2px solid green;
+}
