@@ -141,7 +141,7 @@ export const Form = () => {
      <div className="col-md-12 d-flex justify-content-end">
       <label className="my-2 col-md-1" htmlFor="submit"></label>
       <input className="my-2 col-md-2 mx-md-5 rounded btn-success btn" type="submit" id="submit"></input>
-      <label className="my-2 col-md-1" htmlFor="cencle"></label>
+      <label className="m-2 col-md-1" htmlFor="cencle"></label>
       <input className="my-2 col-md-2 btn border-danger text-danger btn-white rounded " type="reset" id="cencle" value="Cancel" />
       </div>
       
