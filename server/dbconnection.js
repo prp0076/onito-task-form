@@ -9,7 +9,7 @@ const Connectdb = async ()=>{
           });
         const fetched_data = mongoose.connection.db.collection("users");
         const items = await fetched_data.find({}).toArray();
-        console.log(items);
+        // console.log(items);
         global.users=items
         console.log('connnected');
     }

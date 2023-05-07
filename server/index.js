@@ -18,6 +18,8 @@ app.get('/', (req, res) => {
   );
   next();
 })
+app.use('/api',require("./Routes/List"));
+
 app.use(express.json());
 app.use(cors());
 //routes
